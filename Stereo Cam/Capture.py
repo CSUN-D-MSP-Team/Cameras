@@ -16,6 +16,7 @@ def main():
             break
         elif choice == 'V' or choice == 'v':
             captureVideo()
+            break
         else:
             print("Invalid input, enter 'p' or 'v'.")
             choice = input("(P)icture or (V)ideo:\n")
